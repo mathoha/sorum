@@ -23,3 +23,48 @@ body {
 }
 
 
+
+/*--------------------Forside--------------------------*/
+
+.bilde{
+	width:80%;
+	height:70%;
+	display:block;
+	padding-top:60px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.logo{
+	position:absolute;
+	display:block;
+	left:120px;
+	bottom:20px;
+	
+}
+#tekst{
+	position:absolute;
+	font-style:italic;
+	font-weight:bold;
+	color:#238B31;
+	font-family:verdana;
+	font-size:25px;
+	display:block;
+	right:180px;
+	bottom:60px;
+}
+
+@media only screen and (max-width:1300px){
+	#tekst{
+		font-size:15px;
+		bottom:150px;
+		left:30%;
+	}
+	.logo{
+		width:55%;
+		left:20%;
+	}
+	.bilde{
+		max-width:60%;
+		height:auto;
+	}
+}
