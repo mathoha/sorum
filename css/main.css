@@ -72,30 +72,6 @@ body {
 
 /*--------------------Butikk--------------------------*/
 
-#picture {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    height: auto;
-}
-
-#description {
-    margin-top: 5px;
-    position: relative;
-    top: 20%;
-    left: 20px;
-    height: 100px;
-    width: 50%;
-}
-
-#openingHours {
-    position: relative;
-    width: 40%;
-    margin-top: 5px;
-    margin-left: auto;
-}
-
 #openingHours p {
     margin: auto
 }
@@ -114,9 +90,48 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     width: 80%;
-    max-width: 400px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     vertical-align: middle;
+} 
+
+#infocontainer {
+    padding: 0;
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+#picture {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#description {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    border: 3px solid #73AD21; /* lettere å jobbe med */
+}
+
+#openingHours {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 100px;
+    border: 3px solid #73AD21; /* lettere å jobbe med */
+}
+
+#divider {
+    display: inline-block;
+    position: relative;
+    height: 100px;
+    width: 10px;
+    background-color: forestgreen
 }
