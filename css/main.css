@@ -3,6 +3,7 @@ body {
 }
 
 #content {
+    position: relative;
 	background-color: white;
     box-shadow:  0px 0px 4px #404040;
     margin-left: 10%;
@@ -67,4 +68,55 @@ body {
 		max-width:60%;
 		height:auto;
 	}
+}
+
+/*--------------------Butikk--------------------------*/
+
+#picture {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#description {
+    margin-top: 5px;
+    position: relative;
+    top: 20%;
+    left: 20px;
+    height: 100px;
+    width: 50%;
+}
+
+#openingHours {
+    position: relative;
+    width: 40%;
+    margin-top: 5px;
+    margin-left: auto;
+}
+
+#openingHours p {
+    margin: auto
+}
+
+#openingHours h3 {
+    margin: auto
+}
+
+#title {
+    margin:  20px auto 20px auto;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#imagecontainer {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 80%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    vertical-align: middle;
 }
