@@ -22,12 +22,15 @@ img {
 
 h1 {
     text-align: center;
-<<<<<<< HEAD
-}
-=======
 }
 
 
 /* Dropdown Part */
 
->>>>>>> refs/remotes/origin/gh-pages
+.show {
+    display: none;
+}
+
+.drop-down-menu {
+    display: none;
+}
