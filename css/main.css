@@ -113,7 +113,7 @@ body {
 }
 
 #openingHours {
-    position: absolute; /* kanskje bedre å bruke float mtp. responsive desgin osv. */
+    position: absolute; /* kanskje bedre å bruke float mtp. responsive desgin osv. idk */
     width: 150px;
     height: 100px;
     right: 0;
@@ -123,8 +123,8 @@ body {
 #divider {
     position: absolute;
     height: 105px;
-    width: 10px;
-    left: 48.5%;
+    width: 4px;
+    left: 49.5%;
     background-color: forestgreen
 }
 
