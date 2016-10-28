@@ -27,3 +27,10 @@ h1 {
 
 /* Dropdown Part */
 
+.show {
+    display: none;
+}
+
+.drop-down-menu {
+    display: none;
+}
