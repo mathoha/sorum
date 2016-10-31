@@ -1,5 +1,6 @@
 body {
 	background-color: #F0F0F0;
+    padding-top: 52px; /* For at body ikke skal overlappe navbar på toppen av siden */
 }
 
 #content {
