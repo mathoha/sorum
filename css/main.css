@@ -202,16 +202,6 @@ h4, h4 ~ p {
 	margin: 0;
 }
 
-.right  {
-	float: right;
-	width: 50%;
-}
-
-.left {
-	float: left;
-	width: 50%;
-}
-
 #map {
   position: relative;
   padding-bottom: 75%; // This is the aspect ratio
@@ -224,4 +214,21 @@ h4, h4 ~ p {
   left: 0;
 	width: 100% !important;
 	height: 100% !important;
+}
+
+@media (min-width : 600px) {
+	.right  {
+		float: right;
+		width: 50%;
+	}
+
+	.left {
+		float: left;
+		width: 50%;
+	}
+}
+@media (max-width: 600px) {
+.left, .right {
+	text-align: center;
+}
 }
