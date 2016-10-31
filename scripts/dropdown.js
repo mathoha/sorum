@@ -1,5 +1,5 @@
 let dropit = document.getElementById("dropit");
-let showthis = document.getElementById("showthis")
+let showthis = document.getElementById("dropdownmenu")
 dropit.addEventListener("mouseover", function() {
     hot();
     drops();
@@ -9,13 +9,11 @@ showthis.addEventListener("mouseover", hot);
 showthis.addEventListener("mouseout", cold);
 
 function hot(){
-    dropit.style.backgroundColor = "blue";
     showthis.style.display = "block";
 };
 
 function cold(){
     showthis.style.display = "none"
-    dropit.style.backgroundColor = "gold";
 };
 
 function drops(){
