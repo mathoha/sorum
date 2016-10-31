@@ -1,0 +1,30 @@
+#img1{
+	width:30%;
+	height:40%;
+}
+#img2{
+	width:30%;
+	height:40%;
+}
+#img3{
+	width:30%;
+	height:40%;
+}
+#img4{
+	width:30%;
+	height:60%;
+}
+#img5{
+	width:30%;
+	height:60%;
+}
+
+p{
+	font-family:verdana;
+	font-size:18px;
+}
+h1{
+	color:#238B31;
+	font-family:verdana;
+	font-weight:bold;	
+}
