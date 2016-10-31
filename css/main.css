@@ -56,6 +56,11 @@ body {
   height: auto;
   width: auto;
 }
+
+.nav ul li p a:hover {
+    color: lightgrey;
+}
+
 .nav ul li img{
   display: block;
   margin-left: auto;
@@ -189,4 +194,21 @@ ul {
 
 #openingHours h3 {
     margin: auto
+}
+
+
+/* --------------Dropdown-------------*/
+
+#dropdownmenu {
+    display: none;
+    position: absolute;
+    padding: 5px;
+    top: 80px;
+    width: 17%;
+    text-align: left;
+    background-color: darkseagreen;
+}
+
+#dropdownmenu a {
+    font-size: 18px;
 }
