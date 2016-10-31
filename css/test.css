@@ -26,11 +26,27 @@ h1 {
 
 
 /* Dropdown Part */
+#dropit {
+    padding: 0;
+    margin: 0;
+}
 
-.show {
-    display: none;
+#showthis ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .drop-down-menu {
     display: none;
+}
+
+#showthis {
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-top: 0;
 }
