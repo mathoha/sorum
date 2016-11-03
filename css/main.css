@@ -125,7 +125,7 @@ body {
     height: 105px;
     width: 4px;
     left: 49.5%;
-    background-color: forestgreen
+    background-color: forestgreen;
 }
 
 #openingHours p {
@@ -142,13 +142,24 @@ body {
 #dropdownmenu {
     display: none;
     position: absolute;
-    padding: 5px;
+    padding: 0;
     top: 80px;
-    width: 17%;
+    width: 25%;
     text-align: left;
-    background-color: darkseagreen;
+    background-color: #238B31;
 }
 
 #dropdownmenu a {
     font-size: 18px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+#dropdownmenu div:nth-child(even) {
+    background-color: darkseagreen;
+}
+
+#dropdownmenu div:nth-child(odd) {
+    background-color: mediumseagreen;
 }
