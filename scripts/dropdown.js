@@ -13,9 +13,11 @@ function hot(){
 };
 
 function cold(){
-    showthis.style.display = "none"
+    showthis.style.display = "none";
 };
 
+
+/* Ikkefungerende animasjon
 function drops(){
     let id = setInterval(frame, 1);
     let high = 0;
@@ -28,3 +30,4 @@ function drops(){
         }
     }
 }
+*/
