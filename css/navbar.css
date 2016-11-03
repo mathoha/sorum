@@ -58,7 +58,9 @@
   margin-right: auto;
 }
 
-
+.nav ul li p a:hover {
+    color: lightgrey;
+}
 
 
 

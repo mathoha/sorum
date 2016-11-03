@@ -205,14 +205,15 @@ ul {
     position: absolute;
     padding: 0;
     top: 80px;
-    width: 25%;
+    min-width: 12em;
+    width: 17%;
     text-align: left;
     background-color: #238B31;
 }
 
 #dropdownmenu a {
     font-size: 18px;
-    padding: 5px;
+    margin: 5px;
     text-decoration: none;
     color: white;
 }
@@ -223,4 +224,8 @@ ul {
 
 #dropdownmenu div:nth-child(odd) {
     background-color: mediumseagreen;
+}
+
+#dropdownmenu a:hover {
+    color: grey;
 }
