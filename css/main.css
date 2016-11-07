@@ -153,8 +153,9 @@ body {
 }
 
 #dropdownmenu a {
+    display: block;
     font-size: 18px;
-    margin: 5px;
+    padding: 5px;
     text-decoration: none;
     color: white;
 }
