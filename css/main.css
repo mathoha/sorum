@@ -187,20 +187,21 @@ ul {
 
 
 /*--------------------Index--------------------------*/
-
 a {
     margin: 50px;
     font-size: 1.5em;
 }
-
 /* ---------------------Contact----------------------- */
 h4, h4 ~ p {
 	margin: 0;
 }
 
+/* The CSS to the map is taken from
+http://www.labnol.org/internet/embed-responsive-google-maps/28333/
+ */
 #map {
   position: relative;
-  padding-bottom: 75%; // This is the aspect ratio
+  padding-bottom: 80%;
   height: 0;
   overflow: hidden;
 }
