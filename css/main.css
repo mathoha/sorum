@@ -139,38 +139,6 @@ body {
 }
 
 
-/* --------------Dropdown-------------*/
-
-#dropdownmenu {
-    display: none;
-    position: absolute;
-    padding: 0;
-    top: 80px;
-    min-width: 12em;
-    width: 17%;
-    text-align: left;
-    background-color: #238B31;
-}
-
-#dropdownmenu a {
-    display: block;
-    font-size: 18px;
-    padding: 5px;
-    text-decoration: none;
-    color: white;
-}
-
-#dropdownmenu div:nth-child(even) {
-    background-color: darkseagreen;
-}
-
-#dropdownmenu div:nth-child(odd) {
-    background-color: mediumseagreen;
-}
-
-#dropdownmenu a:hover {
-    color: grey;
-}
 
 /* ---------------------Contact----------------------- */
 h4, h4 ~ p {
