@@ -8,7 +8,7 @@
   </head>
   <body>
 
-    <div class="nav">
+      <div class="nav">
       <ul>
         <li>
           <a href="/index.html"><img src="/img/small_temporary_logo.jpg" alt="Sørum silketrykks logo"></a>
@@ -16,8 +16,14 @@
         <li>
           <p><a href="/news.html">Nyheter</a></p>
         </li>
-        <li>
+        <li id="dropit">
           <p><a href="#">Produkter</a></p>
+            <div id="dropdownmenu">
+                <div><span><a href="/products/products_bildekor.html">Bildekor</a></span></div>
+                <div><a href="/products/products_skilt.html">Skilt</a></div>
+                <div><a href="/products/products_tskjortetrykk.html">T-skjortetrykk</a></div>
+                <div><a href="/products/products_profileringsartikler.html">Profileringsartikler</a></div>
+            </div>
         </li>
         <li>
           <p><a href="/shop.html">Butikk</a></p>
@@ -30,7 +36,6 @@
         </li>
       </ul>
     </div>
-
     <div id="content">
       <h1> Profileringsarikler </h1>
       <p> Vår leverandør har norges størst lager av profileringsartikler - det meste er på lager i Norge.
@@ -42,5 +47,7 @@ direkte fra østen, disse har litt lengre leveringstid men er uslåelig når det
   <img src=../img/products/profileringsartikler/profileringsartikler3.jpg alt="image3">
 
     </div>
+    
+    <script src="/scripts/dropdown.js"></script>
   </body>
 </html>
