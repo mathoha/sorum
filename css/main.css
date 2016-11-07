@@ -93,7 +93,7 @@ body {
 #infocontainer {
     position: relative;
     width: 80%;
-    height: 110px;
+    height: 130px;
     max-width: 600px;
     margin: auto;
 }
@@ -109,7 +109,7 @@ body {
 #description {
     position: absolute;
     width: 150px;
-    height: 100px;
+    height: 110px;
     border: 3px solid #73AD21; /* lettere å jobbe med */
     left: 0;
 }
