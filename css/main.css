@@ -57,7 +57,7 @@ body {
 	bottom:60px;
 }
 
-@media only screen and (max-width:1300px){
+@media only screen and (max-width:1000px){
 	#tekst{
 		font-size:15px;
 		bottom:150px;
