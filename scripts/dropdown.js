@@ -7,10 +7,7 @@ PURPOSE: Drops a menu(width id = "dropdownmenu") when user hovers over the elmen
 
 let dropit = document.getElementById("dropit");
 let showthis = document.getElementById("dropdownmenu")
-dropit.addEventListener("mouseover", function() {
-    hot();
-    drops();
-});
+dropit.addEventListener("mouseover", hot);
 dropit.addEventListener("mouseout", cold);
 showthis.addEventListener("mouseover", hot);
 showthis.addEventListener("mouseout", cold);
