@@ -1,5 +1,5 @@
 var pic=document.getElementById("bildefremvisning")
-bildeArray=["butikkForside.JPG","ekstra1.JPG","ekstra2.JPG","ekstra3.JPG","ekstra4.JPG","ekstra5.JPG"]
+bildeArray=["butikkForside.jpg","ekstra1.jpg","ekstra2.jpg","ekstra3.jpg","ekstra4.jpg","ekstra5.jpg"]
 i=0;
 setInterval(function(){
 	pic.src="scripts/slideshow/"+bildeArray[i];
