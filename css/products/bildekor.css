@@ -1,6 +1,6 @@
 #bildekor1, #bildekor2, #bildekor3{
-  width:35%;
-  height:30%;
+  width:30%;
+  height:35%;
 }
 
 p{
@@ -9,5 +9,5 @@ p{
 }
 h1{
 	font-family:verdana;
-	font-weight:bold;	
+	font-weight:bold;
 }
