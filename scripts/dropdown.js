@@ -1,3 +1,10 @@
+/*
+FILE NAME: scripts/dropdown.js
+WRITTEN BY: Åsmund Staldvik
+WHEN: October 2016
+PURPOSE: Drops a menu(width id = "dropdownmenu") when user hovers over the elment( with id = "dropit")
+*/
+
 let dropit = document.getElementById("dropit");
 let showthis = document.getElementById("dropdownmenu")
 dropit.addEventListener("mouseover", function() {
@@ -15,19 +22,3 @@ function hot(){
 function cold(){
     showthis.style.display = "none";
 };
-
-
-/* Ikkefungerende animasjon
-function drops(){
-    let id = setInterval(frame, 1);
-    let high = 0;
-    function frame(){
-        if (high == 100) {
-            clearInterval(id);
-        } else {
-            high += 5;
-            showthis.style.height = high+'px';
-        }
-    }
-}
-*/
