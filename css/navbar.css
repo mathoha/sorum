@@ -7,6 +7,7 @@
   top: 0;
   left: 0;
   width: 100%;
+    min-width: 650px;
     z-index: 1; /* shop.html needs this to avoid navbar sliding under the content, I think news.html is the same way. */
   
   /* Remember that this should not be changed without changing:
@@ -93,7 +94,7 @@
 }
 
 #dropdownmenu a:hover {
-    color: grey;
+    color: lightgrey;
 }
 
 
