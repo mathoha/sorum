@@ -1,6 +1,6 @@
 body {
 	background-color: #F0F0F0;
-    padding-top: 60px;
+    padding-top: 59px;
     margin-top: 0;
     min-width: 650px;
 }
@@ -20,10 +20,10 @@ body {
 /* ----------------------Nyheter----------------------- */
 
 .fb-page {
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 5%;
-    padding-top: 80px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
 }
 
 
@@ -74,6 +74,14 @@ body {
 	}
 }
 
+/*--------------------Om Oss--------------------------*/
+
+#about_content p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
 /*--------------------Produkter--------------------------*/
 
 .productImg {
@@ -116,7 +124,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
-    max-height: 300px;
+    max-height: 400px;
     width: auto;
     height: auto;
 }

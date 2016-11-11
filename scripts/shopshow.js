@@ -7,4 +7,4 @@ setInterval(function(){
 	if(i==4){
 		i=0;
 	}
-},5000)
+},4000)
