@@ -50,11 +50,13 @@
             </p>
             <h3>CSS</h3>
             <p>Instead of just having one css-file (main.css) we split it up a bit since it became kind of hard to keep track of, so we now have several css-files.
+            <h3>In general:</h3>
+            <p>In general we also have rewritten some of the text in most of the pages.
             </p>
         </section>
         <section>
             <h2>Modularity</h2>
-            <p>We used a main.css so we didn’t need that many different css-files. We also made the javascript-functions general, so they could be used on different places. All were in charge. Ideally we would also use a separate html-document for the navbar and link this into the others using php. This would allow us to change the navbar without having to go into each and every html to make the same change. We probably also could achieve this modularity with javascript, but php seems like the most used method for this task.
+            <p>We used a few external stylesheets and not one for each separate page. We also made the javascript-functions general, so they could be used on different places. All were in charge. Ideally we would also use a separate html-document for the navbar and link this into the others using php. This would allow us to change the navbar without having to go into each and every html to make the same change. We probably also could achieve this modularity with javascript, but php seems like the most used method for this task. Overall, modularity is the section we have the most to improve on and is something we will be sure to take with us into future projects. 
             </p>
         </section>
 
@@ -95,25 +97,27 @@
                         <li>slideshow.js</li>
                         <li>zoom.js</li>
                         <li>timer.js</li>
-                        <li>slideshow\
-                            <ul>
-                                <li>butikkForside.jpg</li>
-                                <li>ekstra1.jpg</li>
-                                <li>...</li>
-                                <li>ekstra5.jpg</li>
-                            </ul>
-                        </li>
                     </ul>
                 </li>
-                <li>images\
+                <li>img\
                     <ul>
                         <li>imglogo.png</li>
                         <li>logo.png</li>
                         <li>shop.png</li>
+                        <li>index\
+                            <ul>
+                                <li>butikkforside.jpg</li>
+                                <li>extra1.jpg</li>
+                                <li>extra2.jpg</li>
+                                <li>extra3.jpg</li>
+                                <li>extra4.jpg</li>
+                                <li>extra5.jpg</li>
+                            </ul>
+                        </li>
                         <li>shop\
                             <ul>
                                 <li>shopmain.jpg</li>
-                                <li>shopt1.jpg</li>
+                                <li>shop1.jpg</li>
                                 <li>shop2.jpg</li>
                                 <li>shop3.jpg</li>
                             </ul>
@@ -168,9 +172,8 @@
                                 <li>post.png</li>
                             </ul>
                         </li>
-                      </li>
                     </ul>
-
+                </ul>
             <h3>Final work division</h3>
             <table>
                 <thead>
@@ -264,5 +267,9 @@
                 </tbody>
             </table>
         </section>
+        
+        <footer>
+            <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Ffolk.ntnu.no%2Faasmusta%2FDocuments%2FP3_changes.html"><img src="https://www.w3.org/Icons/valid-html401" alt="WC3 Validated"></a>
+        </footer>
     </body>
 </html>
