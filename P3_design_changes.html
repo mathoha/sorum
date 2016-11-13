@@ -1,0 +1,267 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>P3 Design Changes</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+          <h1>P3 Design Changes</h1>
+        </header>
+        <section>
+          <h2>1 Document Details:</h2>
+           <ul>
+               <li>P3 changes</li>
+               <li>Reidar, Åsmund, Matias, Matias and Maria</li>
+               <li>IT2805 November 2016</li>
+           </ul>
+        </section>
+
+        <section>
+            <h2>2. Administrative Details</h2>
+            <ul>
+                <li>Client name: Gary Poulton</li>
+                <li>Website name: Sorum AS</li>
+                <li>Link to our page: <a href="http://folk.ntnu.no/aasmusta/index.html">click here</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>The changes we have made:</h2>
+            <h3>index.html</h3>
+            <p>The image isn’t as big as in the design pages because the original pictures were too small to be stretched like that. The font is also a bit bigger to fill out the space.
+            </p>
+            <h3>news.html</h3>
+            <p>We removed the text since we thought that most people will understand what a facebook-feed is. The feed also gets more focus now.
+            </p>
+            <h3>Products</h3>
+            <p>We thought that there was too many categories in products so we shortened down the list a bit. A few of the categories was pretty similar, so it would basically be giving the same information several times. Some of the categories was also too narrow to deserve a dedicated page. Therefore the dropdown-menu also contains fewer elements.
+            </p>
+            <h3>about.html</h3>
+            <p>We changed the text into something more relevant and removed one picture so the focus would be more on the persons. We also changed the heading into something more thought provoking.
+            </p>
+            <h3>contact.html</h3>
+            <p>Minor changes of the boldness of the headings to make them more “heading-like”.
+            </p>
+            <h3>resize_navbar_when_scrolling.js</h3>
+            <p>We changed this one entirely since we realized you don’t really scroll a lot at our site. Instead we added a show_time.js on the shop-page so it will show if the shop is open or not.
+            </p>
+            <h3>CSS</h3>
+            <p>Instead of just having one css-file (main.css) we split it up a bit since it became kind of hard to keep track of, so we now have several css-files.
+            </p>
+        </section>
+        <section>
+            <h2>Modularity</h2>
+            <p>We used a main.css so we didn’t need that many different css-files. We also made the javascript-functions general, so they could be used on different places. All were in charge. Ideally we would also use a separate html-document for the navbar and link this into the others using php. This would allow us to change the navbar without having to go into each and every html to make the same change. We probably also could achieve this modularity with javascript, but php seems like the most used method for this task.
+            </p>
+        </section>
+
+        <section>
+            <h2>Updated organizational schemes</h2>
+            <ul>
+                <li>index.html</li>
+                <li>news.html</li>
+                <li>shop.html</li>
+                <li>about.html</li>
+                <li>contact.html</li>
+                <li>products\
+                    <ul>
+                        <li>products_bildekor.html</li>
+                        <li>products_tskjortetrykk.html</li>
+                        <li>products_profileringsartikler.html</li>
+                        <li>products_skilt.html</li>
+                    </ul>
+                </li>
+                <li>css\
+                    <ul>
+                        <li>main.css</li>
+                        <li>navbar.css</li>
+                        <li>about_style.css</li>
+                        <li>products
+                            <ul>
+                                <li>bildekor.css</li>
+                                <li>profileringsartikler.css</li>
+                                <li>skilt.css</li>
+                                <li>tskjortetrykk.css</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>scripts\
+                    <ul>
+                        <li>dropdown.js</li>
+                        <li>slideshow.js</li>
+                        <li>zoom.js</li>
+                        <li>timer.js</li>
+                        <li>slideshow\
+                            <ul>
+                                <li>butikkForside.jpg</li>
+                                <li>ekstra1.jpg</li>
+                                <li>...</li>
+                                <li>ekstra5.jpg</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>images\
+                    <ul>
+                        <li>imglogo.png</li>
+                        <li>logo.png</li>
+                        <li>shop.png</li>
+                        <li>shop\
+                            <ul>
+                                <li>shopmain.jpg</li>
+                                <li>shopt1.jpg</li>
+                                <li>shop2.jpg</li>
+                                <li>shop3.jpg</li>
+                            </ul>
+                        </li>
+                        <li>about\
+                            <ul>
+                                <li>gary_and_nils_headshot.png</li>
+                            </ul>
+                        </li>
+                        <li>products\
+                            <ul>
+                              <li>bildekor\
+                                  <ul>
+                                      <li>bildekor1.jpg</li>
+                                      <li>bildekor2.jpg</li>
+                                      <li>bildekor3.jpg</li>
+                                  </ul>
+                              </li>
+                            </ul>
+                            <ul>
+                              <li>profileringsartikler\
+                                  <ul>
+                                      <li>profileringsartikler1.jpg</li>
+                                      <li>profileringsartikler2.jpg</li>
+                                      <li>profileringsartikler3.jpg</li>
+                                  </ul>
+                              </li>
+                            </ul>
+                            <ul>
+                              <li>skilt\
+                                  <ul>
+                                      <li>skilt1.jpg</li>
+                                      <li>skilt2.jpg</li>
+                                      <li>skilt3.jpg</li>
+                                  </ul>
+                              </li>
+                            </ul>
+                            <ul>
+                              <li>tskjorte\
+                                  <ul>
+                                      <li>tskjortetrykk1.jpg</li>
+                                      <li>tskjortetrykk2.jpg</li>
+                                      <li>tskjortetrykk3.jpg</li>
+                                  </ul>
+                              </li>
+                            </ul>
+                        </li>
+                        <li> contact_icons
+                            <ul>
+                                <li>email.png</li>
+                                <li>phone.png</li>
+                                <li>post.png</li>
+                            </ul>
+                        </li>
+                      </li>
+                    </ul>
+
+            <h3>Final work division</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Filename</td>
+                        <td>Description</td>
+                        <td>In charge</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>index.html</td>
+                        <td>The front-page of the site.</td>
+                        <td>Reidar</td>
+                    </tr>
+                    <tr>
+                        <td>news.html</td>
+                        <td>Page containing the facebook-feed of Sørum Silketrykk.</td>
+                        <td>Mathias H</td>
+                    </tr>
+                    <tr>
+                        <td>products_bildekor.html</td>
+                        <td>Page containing info about a product-category.</td>
+                        <td>Maria</td>
+                    </tr>
+                    <tr>
+                        <td>products_skilt.html</td>
+                        <td>Page containing info about a product-category</td>
+                        <td>Reidar</td>
+                    </tr>
+                    <tr>
+                        <td>products_tskjortetrykk.html</td>
+                        <td>Page containing info about a product-category</td>
+                        <td>Reidar</td>
+                    </tr>
+                    <tr>
+                        <td>products_profileringsartikler.html</td>
+                        <td>Page containing info about a product-category.</td>
+                        <td>Matias H</td>
+                    </tr>
+                    <tr>
+                        <td>Layout of products-pages</td>
+                        <td>The template for how all the products pages should be built.</td>
+                        <td>Maria</td>
+                    </tr>
+                    <tr>
+                        <td>shop.html</td>
+                        <td>Page containing info about the shop that Sørum Silketrykk has in Mosjøen.</td>
+                        <td>Åsmund</td>
+                    </tr>
+                    <tr>
+                        <td>about.html</td>
+                        <td>Page containing info about the owners.</td>
+                        <td>Matias E</td>
+                    </tr>
+                    <tr>
+                        <td>contact.html</td>
+                        <td>Page containing contact information and a map to the shop.</td>
+                        <td>Maria</td>
+                    </tr>
+                    <tr>
+                        <td>main.css + other css</td>
+                        <td>The styling of the pages</td>
+                        <td>All</td>
+                    </tr>
+                    <tr>
+                        <td>Navbar</td>
+                        <td>The navigational bar on top of the page</td>
+                        <td>Matias E</td>
+                    </tr>
+                    <tr>
+                        <td>dropdown.js</td>
+                        <td>Shows a clickable menu under the hovered element.</td>
+                        <td>Åsmund</td>
+                    </tr>
+                    <tr>
+                        <td>zoom.js</td>
+                        <td>Make the product-images increade in size by doubleclicking.</td>
+                        <td>Reidar</td>
+                    </tr>
+                    <tr>
+                        <td>slideshow.js</td>
+                        <td>A slideshow of images on the frontpage</td>
+                        <td>Reidar</td>
+                    </tr>
+                    <tr>
+                        <td>timer.js</td>
+                        <td>Shows the time on shop.html which the user can see if the store is open or not.</td>
+                        <td>Matias H</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </body>
+</html>
